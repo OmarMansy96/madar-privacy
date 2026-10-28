@@ -4,30 +4,75 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Madar Privacy Policy</title>
+<meta name="theme-color" content="#f3ead7">
 <style>
-  body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, Tahoma, sans-serif; max-width: 720px; margin: 0 auto; padding: 32px 16px; line-height: 1.6; color: #1d1a2e; background: #fff; }
-  h1 { margin-bottom: 0; } .muted { color: #6b6785; }
-  hr { margin: 40px 0; border: 0; border-top: 1px solid #ddd; }
-  [dir=rtl] { text-align: right; }
+  /* same paper/ink print style as the game */
+  :root { --paper:#f3ead7; --paper2:#e9dcc0; --ink:#23203a; --muted:#6d6577; --red:#ff5a36; --teal:#2a9d8f; --mustard:#e9b949; }
+  * { box-sizing:border-box; }
+  html { background:var(--paper); }
+  body { margin:0; color:var(--ink); line-height:1.65; font-size:16px;
+    font-family:"Trebuchet MS", "Segoe UI", Roboto, "Noto Sans Arabic", Tahoma, sans-serif;
+    background:var(--paper) radial-gradient(rgba(35,32,58,.07) 1px, transparent 1.2px) 0 0 / 22px 22px; }
+  .wrap { max-width:760px; margin:0 auto; padding:28px 16px 48px; }
+  header { text-align:center; margin-bottom:22px; }
+  .logo { width:96px; height:96px; display:block; margin:0 auto 10px; border-radius:24px; border:3px solid var(--ink); box-shadow:6px 6px 0 var(--ink); }
+  .title { font-size:52px; font-weight:900; letter-spacing:2px; margin:6px 0 0; line-height:1; text-shadow:4px 4px 0 var(--red); }
+  .title small { display:block; font-size:16px; letter-spacing:1px; text-shadow:none; color:var(--muted); margin-top:12px; font-weight:800; }
+  .langs { display:flex; gap:12px; justify-content:center; margin:18px 0 6px; }
+  .langs a { text-decoration:none; color:var(--ink); background:var(--paper); border:3px solid var(--ink); border-radius:14px; box-shadow:4px 4px 0 var(--ink);
+    padding:8px 22px; font-weight:900; font-size:16px; }
+  .langs a:active { transform:translate(3px,3px); box-shadow:1px 1px 0 var(--ink); }
+  section.policy { background:var(--paper); border:3px solid var(--ink); border-radius:20px; box-shadow:7px 7px 0 var(--ink); padding:22px 20px 8px; margin:26px 0 34px; }
+  h1 { font-size:26px; margin:0; line-height:1.25; }
+  .date { display:inline-block; margin:10px 0 6px; background:var(--mustard); border:2.5px solid var(--ink); border-radius:8px; padding:1px 10px; font-weight:900; font-size:13.5px; transform:rotate(-2deg); }
+  h2 { font-size:18px; margin:22px 0 4px; display:flex; align-items:center; gap:10px; }
+  h2::before { content:""; flex:none; width:14px; height:14px; border-radius:50%; background:var(--teal); border:2.5px solid var(--ink); box-shadow:2px 2px 0 var(--ink); }
+  section.policy > h2:nth-of-type(3n+2)::before { background:var(--red); }
+  section.policy > h2:nth-of-type(3n)::before { background:var(--mustard); }
+  p { margin:0 0 14px; }
+  .none { display:inline-block; background:var(--teal); color:var(--paper); border:2.5px solid var(--ink); border-radius:8px; padding:0 8px; font-weight:900; }
+  a { color:var(--ink); font-weight:800; text-decoration-thickness:2px; text-underline-offset:3px; }
+  code { font-family:inherit; font-weight:800; background:var(--paper2); border-radius:6px; padding:1px 6px; }
+  [dir=rtl] .title, [dir=rtl] h1 { letter-spacing:0; }
+  footer { text-align:center; color:var(--muted); font-weight:700; font-size:14px; }
+  @media (max-width:480px) { .title { font-size:42px; } section.policy { padding:18px 16px 4px; } }
 </style>
 </head>
 <body>
+<div class="wrap">
+<header>
+  <svg class="logo" viewBox="0 0 96 96" role="img" aria-label="Madar icon">
+    <rect width="96" height="96" fill="#2a9d8f"/>
+    <circle cx="43" cy="55" r="32" fill="none" stroke="#fffaf0" stroke-width="3" stroke-dasharray="5 6"/>
+    <circle cx="46" cy="58" r="20" fill="#23203a"/>
+    <circle cx="43" cy="55" r="20" fill="#e9b949" stroke="#23203a" stroke-width="3"/>
+    <circle cx="49" cy="51" r="4" fill="#bf8f2a"/><circle cx="37" cy="62" r="3" fill="#bf8f2a"/>
+    <circle cx="74" cy="44" r="8" fill="#23203a"/>
+    <circle cx="71" cy="41" r="8" fill="#ff5a36" stroke="#23203a" stroke-width="2.5"/>
+    <circle cx="68.5" cy="38.5" r="2.2" fill="#fffaf0"/>
+    <path d="M45 18.5l2.1 4.3 4.7.7-3.4 3.3.8 4.7-4.2-2.2-4.2 2.2.8-4.7-3.4-3.3 4.7-.7z" fill="#e9b949" stroke="#23203a" stroke-width="2" stroke-linejoin="round"/>
+  </svg>
+  <div class="title">MADAR<small>by SanabelApps</small></div>
+  <nav class="langs"><a href="#en">English</a><a href="#ar">العربية</a></nav>
+</header>
+
+<section class="policy" id="en" lang="en">
 <h1>Madar Privacy Policy</h1>
-<p class="muted">Effective date: October 27, 2026</p>
+<div class="date">Effective date: October 28, 2026</div>
 
 <p>This privacy policy applies to the mobile game <b>Madar</b> (package <code>com.sanabelapps.madar</code>), developed by SanabelApps ("we", "us").</p>
 
 <h2>Information we collect</h2>
-<p><b>None.</b> We do not collect, receive or share any personal information or usage data. The game has no accounts, no advertising and no analytics, and it does not request internet access.</p>
+<p><span class="none">None.</span> We do not collect, receive or share any personal information or usage data. The game has no accounts, no advertising and no analytics, and it does not request internet access.</p>
 
 <h2>Data saved on your device</h2>
-<p>To keep your progress between sessions, the game saves your best scores, collected stars, unlocked skins, mission progress and settings (sound and language) on your device only. We have no access to this data. If Android backup is turned on for your Google account, Android may include it in your device backup, which is handled by Google. Uninstalling the game or clearing its data deletes it from your device.</p>
+<p>To keep your progress between sessions, the game saves your best scores, collected stars, unlocked skins, mission progress and settings (sound, vibration and language) on your device only. We have no access to this data. If Android backup is turned on for your Google account, Android may include it in your device backup, which is handled by Google. Uninstalling the game or clearing its data deletes it from your device.</p>
 
 <h2>Ratings</h2>
 <p>The only third-party component is Google Play's in-app review library. When you choose to rate the game, it shows Google Play's rating window. Any rating or review you submit goes directly to Google Play under <a href="https://policies.google.com/privacy">Google's Privacy Policy</a>; the game never receives it.</p>
 
 <h2>Permissions</h2>
-<p>The game uses only the <b>vibration</b> permission, for short haptic feedback during play.</p>
+<p>The game uses only the <b>vibration</b> permission, for short haptic feedback during play. You can turn vibration off from the game's main menu.</p>
 
 <h2>Children's privacy</h2>
 <p>We do not collect personal information from anyone, including children.</p>
@@ -37,26 +82,25 @@
 
 <h2>Contact</h2>
 <p>Questions? Email <a href="mailto:support@sanabelapps.com">support@sanabelapps.com</a>.</p>
+</section>
 
-<hr>
+<section class="policy" id="ar" dir="rtl" lang="ar">
+<h1>سياسة الخصوصية للعبة مدار (Madar)</h1>
+<div class="date">تاريخ السريان: 28 أكتوبر 2026</div>
 
-<div dir="rtl" lang="ar">
-<h1>سياسة الخصوصية للعبة Madar</h1>
-<p class="muted">تاريخ السريان: 27 أكتوبر 2026</p>
-
-<p>تنطبق هذه السياسة على لعبة الهاتف <b>Madar</b> (الحزمة <code>com.sanabelapps.madar</code>) من تطوير SanabelApps.</p>
+<p>تنطبق هذه السياسة على لعبة الهاتف <b>مدار (Madar)</b> (الحزمة <code>com.sanabelapps.madar</code>) من تطوير SanabelApps.</p>
 
 <h2>البيانات التي نجمعها</h2>
-<p><b>لا شيء.</b> لا نجمع ولا نستقبل ولا نشارك أي بيانات شخصية أو بيانات استخدام. لا توجد في اللعبة حسابات أو إعلانات أو أدوات تحليل، ولا تطلب الاتصال بالإنترنت.</p>
+<p><span class="none">لا شيء.</span> لا نجمع ولا نستقبل ولا نشارك أي بيانات شخصية أو بيانات استخدام. لا توجد في اللعبة حسابات أو إعلانات أو أدوات تحليل، ولا تطلب الاتصال بالإنترنت.</p>
 
 <h2>البيانات المحفوظة على جهازك</h2>
-<p>للاحتفاظ بتقدمك بين الجلسات، تحفظ اللعبة أفضل نتائجك والنجوم والأشكال المفتوحة وتقدم المهام والإعدادات (الصوت واللغة) على جهازك فقط، ولا يمكننا الوصول إليها. إذا كان النسخ الاحتياطي في Android مفعّلًا لحسابك على Google، فقد يضمّنها Android في النسخة الاحتياطية لجهازك، وتتولاها Google. تُحذف هذه البيانات من جهازك عند إزالة اللعبة أو مسح بياناتها.</p>
+<p>للاحتفاظ بتقدمك بين الجلسات، تحفظ اللعبة أفضل نتائجك والنجوم والأشكال المفتوحة وتقدم المهام والإعدادات (الصوت والاهتزاز واللغة) على جهازك فقط، ولا يمكننا الوصول إليها. إذا كان النسخ الاحتياطي في Android مفعّلًا لحسابك على Google، فقد يضمّنها Android في النسخة الاحتياطية لجهازك، وتتولاها Google. تُحذف هذه البيانات من جهازك عند إزالة اللعبة أو مسح بياناتها.</p>
 
 <h2>التقييمات</h2>
 <p>المكوّن الخارجي الوحيد هو مكتبة التقييم داخل التطبيق من Google Play. عند اختيارك تقييم اللعبة تظهر نافذة التقييم الخاصة بـ Google Play، ويُرسَل أي تقييم أو مراجعة مباشرةً إلى Google Play وفق <a href="https://policies.google.com/privacy?hl=ar">سياسة خصوصية Google</a>، ولا تستقبله اللعبة.</p>
 
 <h2>الأذونات</h2>
-<p>تستخدم اللعبة إذن <b>الاهتزاز</b> فقط، لإعطاء إحساس لمسي قصير أثناء اللعب.</p>
+<p>تستخدم اللعبة إذن <b>الاهتزاز</b> فقط، لإعطاء إحساس لمسي قصير أثناء اللعب. يمكنك إيقاف الاهتزاز من القائمة الرئيسية للعبة.</p>
 
 <h2>خصوصية الأطفال</h2>
 <p>لا نجمع أي معلومات شخصية من أي شخص، بما في ذلك الأطفال.</p>
@@ -66,6 +110,9 @@
 
 <h2>التواصل</h2>
 <p>لأي استفسار: <a href="mailto:support@sanabelapps.com">support@sanabelapps.com</a></p>
+</section>
+
+<footer>© 2026 SanabelApps</footer>
 </div>
 </body>
 </html>
